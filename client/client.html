@@ -1,5 +1,6 @@
 <html>
 <head>
+  <meta charset="utf-8">
 <title>Crossword</title>
 <script src="/Crosswords/library/jquery-3.2.1.min.js"></script>
 <link href="/Crosswords/client/css/client.css" rel="stylesheet">
@@ -17,12 +18,41 @@
             <input type="checkbox" name="art">미술<br>
             <input type="checkbox" name="music">음악<br>
             <input type="checkbox" name="world_history">세계사<br>
-            <input type="checkbox" name="korean_history">한국사
+            <input type="checkbox" name="korean_hi story">한국사
+            과목_트리
+            과학
+            -물리
+            -화학
+            -지구과학
+            -생물
+            공학
+            -컴퓨터(하드웨어)
+            -컴퓨터(소프트웨어)
+            -건축
+            -우주
+            수학
+            예술
+            -문학
+            -미술
+            -음악
+            -무용
+
         </div>
+        <input type="button" id="submit" value="game start">
       </form>
     </div>
     <script>
-    $('.scroll').scroll();
+    $('#submit').onclick(function()
+    {
+        if(forms.hidden="")
+        {
+          alert("입력해주세요");
+        }
+        else()
+        {
+          forms.submit();
+        }
+    });
     </script>
   </div>
 </body>
