@@ -1,20 +1,29 @@
 <html>
 <head>
 <title>Crossword</title>
+<script src="library/jquery-3.2.1.min.js"></script>
 </head>
 <body>
   <div class="wrap">
     <div class="game">
       <form name="forms">
-        <div class="scoll">
+        <div class="scroll">
           <ul>
-            <input type="checkbox">
+            <input type="checkbox" name="physics">물리
+            <input type="checkbox" name="math">수학
+            <input type="checkbox" name="chemistry">화학
+            <input type="checkbox" name="Literature">문학
+            <input type="checkbox" name="computer">컴퓨터
+            <input type="checkbox" name="art">미술
+            <input type="checkbox" name="music">음악
+            <input type="checkbox" name="world_history">세계사
+            <input type="checkbox" name="korean_history">한국사
           </ul>
         </div>
       </form>
     </div>
     <script>
-    var
+    $('.scroll').scroll();
     </script>
   </div>
 </body>
