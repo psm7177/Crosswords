@@ -19,10 +19,16 @@
             <input type="checkbox" name="world_history">세계사<br>
             <input type="checkbox" name="korean_history">한국사
         </div>
+        <input type="button" id="submit_button">
       </form>
     </div>
     <script>
-    $('.scroll').scroll();
+    $(#submit_button).onclick(function()
+    {
+      forms.action="game"
+      forms.method="POST"
+      forms.submit();
+    });
     </script>
   </div>
 </body>
